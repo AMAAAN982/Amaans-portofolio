@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <header class="header-wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="/images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered"></i>
+
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex gap-3 menu-bar-nav">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section id="home" class="banner-wrapper ">
+        <div class="container">
+            <div class="d-flex flex-column  align-items-center align-items-sm-start   ">
+                <div>
+                    <span class="text-white">WELCOME TO MY WORLD</span>
+                    <h1>
+                        I'm Amaan Fasial <br><span>Js Developer.</span><br>Based In PAk.
+                    </h1>
+                    <a class="main-btn mt-4 " href="">Download CV</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="about" class="about-wrapper">
+        <div class="container">
+            <div class="d-flex  justify-content-between gap-5 aboutcontent">
+                <figure class="">
+                    <img src="/images/about.jpg" alt="">
+                </figure>
+                <div class="d-flex flex-column gap-3 aboutright mt-5">
+                    <div class=" d-flex flex-column align-items-center align-items-sm-start gap-3">
+                        <span class="subtitle">My About Details</span>
+                        <h2>About Me</h2>
+                        <p>There are many variations of passages of lorem ipsum available,
+                            but the majority have suffered in some form, by injected humour
+                        </p>
+                    </div>
+                    <ul class="nav nav-pills mb-2 d-flex justify-content-center justify-content-sm-between  "
+                        id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                                aria-selected="true">Main skills</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-Award-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Award" type="button" role="tab" aria-controls="pills-Award"
+                                aria-selected="false">Awards</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-experience" type="button" role="tab"
+                                aria-controls="pills-experience" aria-selected="false">Experience</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-education" type="button" role="tab"
+                                aria-controls="pills-education" aria-selected="false">Education</button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                            aria-labelledby="pills-skill-tab" tabindex="0">
+                            <div class="single-progress">
+                                <h6 class="text-white mb-4">Designing</h6>
+                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 95%"></div>
+
+                                </div>
+                                <span class="label">95%</span>
+
+                            </div>
+                            <div class="single-progress">
+                                <h6 class="text-white mb-4">Management</h6>
+                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width:85%"></div>
+
+                                </div>
+                                <span class="label">85%</span>
+
+                            </div>
+                            <div class="single-progress">
+                                <h6 class="text-white mb-4">Designing</h6>
+                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 65%"></div>
+
+                                </div>
+                                <span class="label">65%</span>
+
+                            </div>
+                            <div class="single-progress">
+                                <h6 class="text-white mb-4">Designing</h6>
+                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 45%"></div>
+
+                                </div>
+                                <span class="label">45%</span>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-Award" role="tabpanel" aria-labelledby="pills-Award-tab"
+                            tabindex="0">
+                            <ul>
+                                <li><a href="">Awwards.com
+                                        <span>. Winner</span>
+                                    </a>
+                                    2019-2020
+
+                                </li>
+                                <li><a href="">Css Design Awards
+                                        <span>. Winner</span>
+                                    </a>
+                                    2017-2018
+
+                                </li>
+                                <li><a href="">Design nominees
+                                        <span>. Winner</span>
+                                    </a>
+                                    2013-2014
+
+                                </li>
+                                <li><a href="">Awwards.com
+                                        <span>. Winner</span>
+                                    </a>
+                                    2019-2020
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-experience" role="tabpanel"
+                            aria-labelledby="pills-experience-tab" tabindex="0">
+                            <ul>
+                                <li><a href="">Frontend
+                                        <span>. Google</span>
+                                    </a>
+                                    2019-2020
+
+                                </li>
+                                <li><a href="">Frontend
+                                        <span>Microsoft</span>
+                                    </a>
+                                    2017-2018
+
+                                </li>
+                                <li><a href="">Software
+                                        <span>-Alibaba</span>
+                                    </a>
+                                    2013-2014
+
+                                </li>
+                                <li><a href="">Software
+                                        <span>-Alibaba</span>
+                                    </a>
+                                    2019-2020
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                            aria-labelledby="pills-education-tab" tabindex="0">
+                            <ul>
+                                <li><a href="">BSC IN CE
+                                        <span>.harvard University</span>
+                                    </a>
+                                    2019-2020
+
+                                </li>
+                                <li><a href="">Css Design Awards
+                                        <span>. Winner</span>
+                                    </a>
+                                    2017-2018
+
+                                </li>
+                                <li><a href="">Design nominees
+                                        <span>. Winner</span>
+                                    </a>
+                                    2013-2014
+
+                                </li>
+                                <li><a href="">Awwards.com
+                                        <span>. Winner</span>
+                                    </a>
+                                    2019-2020
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        </div>
+
+    </section>
+    <section id="services" class="services-wrapper  mt-4">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-center">
+                    <span class="subtitle">What i can do for you</span>
+                    <h2>My Awesome Service</h2>
+                    <p class="text-center">There are many variations of passages of lorem ipsum avaialable,<br
+                            class="d-none d-md-block">
+                        but the majority have suffered alterations.</p>
+
+
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-wrap  justify-content-center mt-4 card-wrapper">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa-solid fa-tower-broadcast text-danger "></i>
+                        <h3 class="card-title">Business Strategy</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="card-body ">
+                        <i class="fa-solid fa-layer-group text-primary"></i>
+                        <h3 class="card-title">Business Strategy</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body  ">
+                        <i class="fa-solid fa-tv text-info"></i>
+                        <h3 class="card-title">Marketing & Reporting</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body ">
+                        <i class="fa-solid fa-tv text-info"></i>
+                        <h3 class="card-title">Mobile App Devlopment</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body ">
+                        <i class="fa-solid fa-users text-success-emphasis"></i>
+                        <h3 class="card-title">MArketing & Reporting</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body ">
+                        <i class="fa-solid fa-tv text-info"></i>
+                        <h3 class="card-title">Mobile App Development</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+    <section id="portfolio " class="portfolio-wrapper  mt-4">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center mt-4 ">
+                <div class="d-flex flex-column gap-2 text-center  mt-2">
+                    <span class="subtitle">MY COMPLETE PROJECT</span>
+                    <h2>My Latest Project</h2>
+                    <p class="text-center">There are many variations of passages of lorem ipsum avaialable,<br
+                            class="d-none d-md-block">
+                        but the majority have suffered alterations.</p>
+                </div>
+                <div class="web-wrapper  w-100 mt-4">
+                    <div class="web">
+
+
+                    </div>
+                    <div class="web">
+
+
+                    </div>
+                    <div class="web">
+
+
+                    </div>
+                    <div class="web">
+
+
+                    </div>
+                    <div class="web">
+
+
+                    </div>
+                    <div class="web">
+
+
+                    </div>
+                    <div class="web">
+
+
+                    </div>
+                    <div class="web">
+
+
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <section id="contact" class="contact-wrapper mt-4">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between maincontact gap-3">
+                <div class="d-flex flex-column align-items-center align-items-lg-start gap-3 leftcontact ">
+                    <div class="text-center text-md-start">
+                        <span class="subtitle">MY CONMPLETE PROJECT</span>
+                        <h2>Hire Me.</h2>
+
+                    </div>
+                    <div>
+
+
+
+                        <div class="d-flex gap-4">
+                            <label for="">Call us directly</label>
+                            <a href="">03098181481</a>
+
+                        </div>
+                        <div class="d-flex gap-4">
+                            <label for="">Conact Email</label>
+
+                            <a href="">@amanironman70@gmail.com</a>
+                        </div>
+                    </div>
+
+
+                    <form class="align-items-center align-items-lg-start">
+
+                        <input type="text" class="form-control" placeholder="Your Name">
+
+
+                        <input type="text" class="form-control" placeholder="Your Contact">
+
+                        <input type="text" class="form-control" placeholder="Your Email">
+
+                        <textarea name="" cols="40" rows="4" id="" class="form-control"
+                            placeholder="Wrtie a message....."></textarea>
+
+                        <button type="submit" class="main-btn">Submit</button>
+
+                    </form>
+
+                </div>
+                <div class="rightcontact ">
+                    <figure>
+                        <img src="/images/contact.jpg" alt="">
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-4">
+        <div class="container">
+        <div class="d-flex align-items-center justify-content-between footer-wrapper">
+            <figure>
+                <img src="/images/logo.png" alt="">
+            </figure>
+            <ul style="list-style: none;" class="d-flex gap-4">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+            </ul>
+            <p>Copyright © Techzilla Global.com 2025 .All Rights Reserved</p>
+
+        </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+        <script src="/portfolio.js" ></script>
+</body>
+
+
+</html>
